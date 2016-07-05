@@ -15,6 +15,11 @@
 		ED8375BC1D2B815F009C6290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8375BA1D2B815F009C6290 /* LaunchScreen.storyboard */; };
 		ED8375C71D2B815F009C6290 /* HJCarouselTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8375C61D2B815F009C6290 /* HJCarouselTests.m */; };
 		ED8375D21D2B8160009C6290 /* HJCarouselUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8375D11D2B8160009C6290 /* HJCarouselUITests.m */; };
+		ED8375E91D2B81D5009C6290 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8375E11D2B81D5009C6290 /* CollectionViewController.m */; };
+		ED8375EB1D2B81D5009C6290 /* HJCarouselViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8375E51D2B81D5009C6290 /* HJCarouselViewCell.m */; };
+		ED8375EC1D2B81D5009C6290 /* HJCarouselViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8375E61D2B81D5009C6290 /* HJCarouselViewCell.xib */; };
+		ED8375ED1D2B81D5009C6290 /* HJCarouselViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8375E81D2B81D5009C6290 /* HJCarouselViewLayout.m */; };
+		ED8375EF1D2B8647009C6290 /* background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED8375EE1D2B8647009C6290 /* background3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		ED8375CD1D2B8160009C6290 /* HJCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8375D11D2B8160009C6290 /* HJCarouselUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJCarouselUITests.m; sourceTree = "<group>"; };
 		ED8375D31D2B8160009C6290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8375E01D2B81D5009C6290 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		ED8375E11D2B81D5009C6290 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		ED8375E41D2B81D5009C6290 /* HJCarouselViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCarouselViewCell.h; sourceTree = "<group>"; };
+		ED8375E51D2B81D5009C6290 /* HJCarouselViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCarouselViewCell.m; sourceTree = "<group>"; };
+		ED8375E61D2B81D5009C6290 /* HJCarouselViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJCarouselViewCell.xib; sourceTree = "<group>"; };
+		ED8375E71D2B81D5009C6290 /* HJCarouselViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCarouselViewLayout.h; sourceTree = "<group>"; };
+		ED8375E81D2B81D5009C6290 /* HJCarouselViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCarouselViewLayout.m; sourceTree = "<group>"; };
+		ED8375EE1D2B8647009C6290 /* background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +118,9 @@
 				ED8375B01D2B815F009C6290 /* AppDelegate.m */,
 				ED8375B21D2B815F009C6290 /* ViewController.h */,
 				ED8375B31D2B815F009C6290 /* ViewController.m */,
+				ED8375EE1D2B8647009C6290 /* background3.jpg */,
 				ED8375B51D2B815F009C6290 /* Main.storyboard */,
+				ED8375DF1D2B81D5009C6290 /* HJCarousel */,
 				ED8375B81D2B815F009C6290 /* Assets.xcassets */,
 				ED8375BA1D2B815F009C6290 /* LaunchScreen.storyboard */,
 				ED8375BD1D2B815F009C6290 /* Info.plist */,
@@ -138,6 +153,20 @@
 				ED8375D31D2B8160009C6290 /* Info.plist */,
 			);
 			path = HJCarouselUITests;
+			sourceTree = "<group>";
+		};
+		ED8375DF1D2B81D5009C6290 /* HJCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				ED8375E01D2B81D5009C6290 /* CollectionViewController.h */,
+				ED8375E11D2B81D5009C6290 /* CollectionViewController.m */,
+				ED8375E41D2B81D5009C6290 /* HJCarouselViewCell.h */,
+				ED8375E51D2B81D5009C6290 /* HJCarouselViewCell.m */,
+				ED8375E61D2B81D5009C6290 /* HJCarouselViewCell.xib */,
+				ED8375E71D2B81D5009C6290 /* HJCarouselViewLayout.h */,
+				ED8375E81D2B81D5009C6290 /* HJCarouselViewLayout.m */,
+			);
+			path = HJCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8375BC1D2B815F009C6290 /* LaunchScreen.storyboard in Resources */,
+				ED8375EF1D2B8647009C6290 /* background3.jpg in Resources */,
 				ED8375B91D2B815F009C6290 /* Assets.xcassets in Resources */,
+				ED8375EC1D2B81D5009C6290 /* HJCarouselViewCell.xib in Resources */,
 				ED8375B71D2B815F009C6290 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8375ED1D2B81D5009C6290 /* HJCarouselViewLayout.m in Sources */,
+				ED8375E91D2B81D5009C6290 /* CollectionViewController.m in Sources */,
+				ED8375EB1D2B81D5009C6290 /* HJCarouselViewCell.m in Sources */,
 				ED8375B41D2B815F009C6290 /* ViewController.m in Sources */,
 				ED8375B11D2B815F009C6290 /* AppDelegate.m in Sources */,
 				ED8375AE1D2B815F009C6290 /* main.m in Sources */,
